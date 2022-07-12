@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  background-color: dodgerblue;
+  width: 100vw;
+  padding: 1rem;
+}
+
+header a {
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > div {
+  flex: 1;
+  font-size: 2rem;
+}
+
+
+#save {
+  background-color: dodgerblue;
+}
