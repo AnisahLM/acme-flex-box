@@ -27,3 +27,14 @@ header > div {
 #save {
   background-color: dodgerblue;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  justify-content: center;
+  display: block ;
+  border: solid;
+}
